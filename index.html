@@ -1,0 +1,174 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <meta name="description" content="Portfolio website of Hassen Endris, Planning & GIS expert from Wollo, Ethiopia.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef77eac018.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()" aria-label="Close menu"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()" aria-label="Open menu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Planning & GIS expert</p>
+                <h1> Hi I am <span>Hassen </span> Endris <br> from Wollo,Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="logo.png" alt="Profile photo" loading="lazy">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>
+    I am a Planning and GIS expert with a Master's degree in GIS & Remote Sensing and over 8 years of experience in government land office administration. I am fluent in English, Amharic, and Afaan-Oromo, with proficiency in Arabic.<br>
+    My skills include strategic planning, budgeting, and advanced use of Microsoft Office Suite for data analysis and reporting. I am highly experienced in GIS technologies for spatial analysis and map creation.<br>
+    I am a strong communicator and collaborator, with experience training and mentoring teams. I am committed to continuous learning and professional growth.<br>
+    In my free time, I enjoy reading, traveling, and exploring new technologies. I am passionate about making a positive impact in my community.<br>
+    Thank you for visiting my portfolio website. I look forward to connecting and exploring opportunities to work together.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills',this)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience',this)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education',this)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ArcGIS</span><br>ArcGIS expert</li>
+                            <li><span>Planning & Budgeting</span><br>Planning and budgeting expert</li>
+                            <li><span>Microsoft Excel</span><br>Microsoft Excel expert</li>
+                            <li><span>Microsoft PowerPoint</span><br>Microsoft PowerPoint expert</li>
+                            <li><span>Microsoft Word</span><br>Microsoft Word expert</li>
+                            <li><span>ENVI</span><br>ENVI expert</li>
+                            <li><span>HTML & CSS</span><br>HTML & CSS expert</li>
+                            <li><span>JavaScript</span><br>JavaScript expert</li>
+                            <li><span>AI & Data Science</span><br>AI & Data Science expert</li>
+                            <li><span>Web & App Development</span><br>Web & App developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2016-present</span><br>Planning and Budgeting expert at Werebabo Wereda Land Office</li>
+                            <li><span>2022-present</span><br>GIS expert at Werebabo Wereda Land Office</li>
+                            <li><span>2025-present</span><br>Web & app developer at Werebabo Wereda Land Office</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014</span><br>BA degree in GEs from Haramaya University</li>
+                            <li><span>2024</span><br>MSc in GIS & RS from Wollo University</li>
+                            <li><span>2018</span><br> Certificate in Microsoft Office from Werebabo Wereda STICT</li>
+                            <li><span>2025</span><br> Certificate in Web development from Udacity</li>
+                            <li><span>2025</span><br> Certificate in Android App development from Udacity</li>
+                            <li><span>2025</span><br> Certificate in Artificial Intelligence from Udacity</li>
+                            <li><span>2025</span><br> Certificate in Data Science from Udacity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Planning & Budgeting</h2>
+                    <ul>
+                        <li>Experienced in planning and budgeting processes, with a focus on physical planning and financial management.</li>
+                        <li>Proficient in using Microsoft Office Suite for data analysis and reporting.</li>
+                        <li>Proficient in using Microsoft Excel and PowerPoint for creating presentations and reports.</li>
+                        <li>Managed budget planning processes for the office.</li>
+                        <li>Oversaw and managed follow-up procedures for physical planning initiatives.</li>
+                        <li>For the last 8 years, I was responsible for preparing yearly physical and budget plans for Land Office.</li>
+                        <li>Prepared checklists and feedback for Land Office teams.</li>
+                        <li>Acquired various satellite imagery for projects and individuals.</li>
+                        <li>Conducted training sessions on planning and budgeting best practices.</li>
+                        <li>Served as Secretariat of the Management, handling organizational and collaborative tasks.</li>
+                        <li>Implemented performance monitoring systems to track project progress and outcomes.</li>
+                        <li>Developed and maintained comprehensive documentation for planning and budgeting processes.</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h2>GIS & Remote Sensing</h2>
+                    <ul>
+                        <li>Utilized GIS technologies to analyze spatial data and create detailed maps.</li>
+                        <li>Proficient in ArcGIS for spatial analysis and map creation.</li>
+                        <li>Experienced in remote sensing techniques for environmental monitoring.</li>
+                        <li>Skilled in data visualization and presentation of GIS findings.</li>
+                        <li>Prepared study area maps for certain projects/individuals.</li>
+                        <li>Prepared a land use land cover map of Werebabo Wereda.</li>
+                        <li>Acquired various satellite imagery for projects and individuals.</li>
+                        <li>Conducted Satellite image analysis using ENVI software.</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h2>Web & Mobile Development</h2>
+                    <ul>
+                        <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                        <li>Efficient in using AI technologies for enhanced application functionality.</li>
+                        <li>Experienced in mobile app development for Android platforms.</li>
+                        <li>Skilled in using ArcGIS with web and mobile applications for enhanced spatial analysis.</li>
+                        <li>Developed a web site for Werebabo Wereda Land Office.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>
+   <a href="mailto:endrishassen955@gmail.com?subject=Portfolio Inquiry">endrishassen955@gmail.com</a>
+</p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+251922940435">+251922940435</a></p>
+                    <div class="social-icons">
+                        <a href="https://t.me/Ibn_babo" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/hassen-endris-179614191" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="Name" placeholder="Your Name" required autocomplete="name">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="Email" placeholder="Your Email" required autocomplete="email">
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="Copyright">
+        <p>&copy; Hassen Endris, 2025</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
